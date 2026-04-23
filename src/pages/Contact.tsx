@@ -24,8 +24,8 @@ export const Contact: React.FC = () => {
                 <Phone size={24} />
              </div>
              <h3 className="font-serif italic text-2xl mb-2">Phone</h3>
-             <p className="text-[#3D2B1F]/60 text-sm mb-6">+91 98765 43210</p>
-             <a href="tel:+919876543210" className="text-[11px] uppercase tracking-[0.25em] font-bold text-[#C5A059] border-b border-[#C5A059] pb-1">Call Now</a>
+             <p className="text-[#3D2B1F]/60 text-sm mb-6">+91 86073 73573</p>
+             <a href="tel:+918607373573" className="text-[11px] uppercase tracking-[0.25em] font-bold text-[#C5A059] border-b border-[#C5A059] pb-1">Call Now</a>
           </div>
 
           <div className="p-10 rounded-[40px] bg-white border border-[#E8E1D9] flex flex-col items-center text-center">
@@ -43,7 +43,7 @@ export const Contact: React.FC = () => {
              </div>
              <h3 className="font-serif italic text-2xl mb-2">WhatsApp</h3>
              <p className="text-[#3D2B1F]/60 text-sm mb-6">Expert chat support</p>
-             <a href="https://wa.me/911234567890" className="text-[11px] uppercase tracking-[0.25em] font-bold text-[#C5A059] border-b border-[#C5A059] pb-1">Chat Now</a>
+             <a href="https://wa.me/918607373573" className="text-[11px] uppercase tracking-[0.25em] font-bold text-[#C5A059] border-b border-[#C5A059] pb-1">Chat Now</a>
           </div>
 
           <div className="p-10 rounded-[40px] bg-white border border-[#E8E1D9] flex flex-col items-center text-center">
@@ -65,12 +65,12 @@ export const Contact: React.FC = () => {
           <div className="lg:w-1/3 w-full">
             <div className="bg-[#E8E1D9]/30 rounded-[40px] overflow-hidden p-10 h-full border border-[#E8E1D9] text-center flex flex-col items-center justify-center">
                <MapPin size={48} className="text-[#C5A059] mb-8" />
-               <h3 className="text-3xl font-serif italic mb-4">Our Flagship</h3>
+               <h3 className="text-3xl font-serif italic mb-4">Our Store</h3>
                <p className="text-sm text-[#3D2B1F]/60 leading-relaxed font-sans mb-10">
-                 124 Design Hub, <br /> MG Road, New Delhi, <br /> 110001, India
+                 Kalanaur, Rohtak, <br /> Haryana, India
                </p>
                <a 
-                 href="https://goo.gl/maps/placeholder" 
+                 href="https://www.google.com/maps/search/Kalanaur,+Rohtak,+Haryana" 
                  target="_blank" 
                  rel="noreferrer"
                  className="bg-[#3D2B1F] text-white px-10 py-3 rounded-full text-[11px] uppercase tracking-[0.2em] font-bold hover:bg-[#C5A059] transition-all"

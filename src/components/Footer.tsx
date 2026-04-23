@@ -46,11 +46,11 @@ export const Footer: React.FC = () => {
             <ul className="space-y-4 text-[10px] uppercase tracking-[0.2em] text-white/70">
               <li className="flex gap-3">
                 <span className="text-lg opacity-100">📍</span>
-                <span>124 Design Hub, New Delhi</span>
+                <span>Kalanaur, Rohtak, Haryana</span>
               </li>
               <li className="flex gap-3">
                 <span className="text-lg opacity-100">📞</span>
-                <span>+91 98765 43210</span>
+                <span>+91 86073 73573</span>
               </li>
             </ul>
           </div>
@@ -58,9 +58,9 @@ export const Footer: React.FC = () => {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-widest text-white/40 gap-4">
           <p>© 2026 MM Home Decor. All rights reserved.</p>
-          <div className="flex gap-6 bg-[#25D366] px-4 py-1.5 rounded-full text-white font-bold cursor-pointer hover:scale-105 transition-transform">
+          <a href="https://wa.me/918607373573" target="_blank" rel="noreferrer" className="flex gap-6 bg-[#25D366] px-4 py-1.5 rounded-full text-white font-bold cursor-pointer hover:scale-105 transition-transform">
              <span className="text-sm">💬</span> WhatsApp Chat
-          </div>
+          </a>
         </div>
       </div>
     </footer>
